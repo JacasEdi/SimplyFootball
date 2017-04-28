@@ -13,6 +13,7 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 import com.example.jacek.simplyfootball.databinding.ActivityUpdateDetailsBinding;
+import com.example.jacek.simplyfootball.viewmodel.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;

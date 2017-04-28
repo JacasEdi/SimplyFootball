@@ -3,16 +3,12 @@ package com.example.jacek.simplyfootball;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
-import android.os.Build;
 import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.DatePicker;
@@ -21,6 +17,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.jacek.simplyfootball.databinding.ActivityRegisterBinding;
+import com.example.jacek.simplyfootball.viewmodel.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -231,6 +228,13 @@ public class RegisterActivity extends AppCompatActivity
         {
             etConfirmPassword.setError(getString(R.string.error_field_required));
             focusView = etConfirmPassword;
+            focusView.requestFocus();
+            return false;
+        }
+        else if (!isPasswordValid(password))
+        {
+            etPassword.setError(getString(R.string.error_invalid_password));
+            focusView = etPassword;
             focusView.requestFocus();
             return false;
         }

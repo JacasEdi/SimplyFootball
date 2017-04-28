@@ -6,7 +6,7 @@
 
     <data>
         <import type="android.view.View"/>
-        <variable name="user" type="com.example.jacek.simplyfootball.User"/>
+        <variable name="user" type="com.example.jacek.simplyfootball.viewmodel.User"/>
         <variable name="handlers" type="com.example.jacek.simplyfootball.UpdateDetailsActivity"/>
     </data>
 
