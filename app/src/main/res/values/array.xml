@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subscription_type_array">
+        <item name="full">Full Subscription</item>
+        <item name="partial">Partial Subscription</item>
+    </string-array>
+</resources>

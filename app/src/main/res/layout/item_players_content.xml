@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tv_player_position"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView" />
+
+    <TextView
+        android:id="@+id/tv_player_age"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView" />
+
+    <TextView
+        android:id="@+id/tv_player_appearances"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView" />
+
+    <TextView
+        android:id="@+id/tv_player_goals"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView" />
+
+    <TextView
+        android:id="@+id/tv_player_assists"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView" />
+
+    <TextView
+        android:id="@+id/tv_player_yellow_cards"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView" />
+
+    <TextView
+        android:id="@+id/tv_player_red_cards"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView" />
+
+</LinearLayout>

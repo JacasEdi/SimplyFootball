@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "151501829049",
+    "firebase_url": "https://simplyfootball-dab1b.firebaseio.com",
+    "project_id": "simplyfootball-dab1b",
+    "storage_bucket": "simplyfootball-dab1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151501829049:android:dd31c3868e5e4953",
+        "android_client_info": {
+          "package_name": "com.example.jacek.simplyfootball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151501829049-kvm1slgopvvjv6abpum06a4q4ensh3pj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jacek.simplyfootball",
+            "certificate_hash": "407ecd7c5325895a4d4cdcd647170cf67d86b60d"
+          }
+        },
+        {
+          "client_id": "151501829049-a9rlbsvrp9qvqscatnl63pa0hhaslrbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVCnU4JXEYFxd8WJTsh6PUciXtMQugmOI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151501829049-a9rlbsvrp9qvqscatnl63pa0hhaslrbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

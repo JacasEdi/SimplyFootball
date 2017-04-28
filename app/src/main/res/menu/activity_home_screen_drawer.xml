@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="Team News" />
+        <item
+            android:id="@+id/nav_squad"
+            android:icon="@drawable/ic_squad"
+            android:title="Squad" />
+        <item
+            android:id="@+id/nav_fixtures"
+            android:icon="@drawable/ic_fixtures"
+            android:title="Fixtures &amp; Results" />
+        <item
+            android:id="@+id/nav_table"
+            android:icon="@drawable/ic_table"
+            android:title="League Table" />
+    </group>
+
+    <item android:title="Share app">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

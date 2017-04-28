@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SimplyFootball</string>
+    <string name="spinner_header">Subscription type</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="error_invalid_email">This email address is invalid!</string>
+    <string name="error_invalid_contact_number">This contact number is invalid!</string>
+    <string name="error_invalid_password">This password is too short!</string>
+    <string name="error_invalid_password_match">Password does not match!</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_under_13">You need to be over 13 to register!</string>
+    <string name="action_register">Not a member? Register.</string>
+    <string name="table_legend">Pos - Position\nP - Matches played\nW - Wins\nD - Draws
+    \nL - Lost\nF - Goals For\nA - Goals Against\nGD - Goal Difference\nPts - Points</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="network">Network ok :</string>
+    <string name="pref_display_grid">pref_display_grid</string>
+    <string name="title_activity_home_screen">Simply Football</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fixtures"><![CDATA[Fixtures & Results]]></string>
+    <string name="title_activity_match_report">Match Reports</string>
+    <string name="title_activity_league_table">League Table</string>
+    <string name="title_activity_players">Squad</string>
+    <string name="title_update_details_activity">Update Details</string>
+    <string name="title_news_activity">News</string>
+    <string name="title_register_activity">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="splash_screen_text">Simply Football</string>
+</resources>
