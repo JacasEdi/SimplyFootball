@@ -233,8 +233,8 @@ public class RegisterActivity extends AppCompatActivity
         }
         else if (!isPasswordValid(confirmPassword))
         {
-            etPassword.setError(getString(R.string.error_invalid_password));
-            focusView = etPassword;
+            etConfirmPassword.setError(getString(R.string.error_invalid_password));
+            focusView = etConfirmPassword;
             focusView.requestFocus();
             return false;
         }
